@@ -15,13 +15,6 @@ from pathlib import Path
 
 PIPELINE_DIR = Path(__file__).resolve().parent
 
-# ── Switch between datasets ───────────────────────────────────────────────────
-# TUTORIAL data:
-# DATASET_DIR   = Path("/Users/arbeit/Documents/OpenSim/4.5/Models/Rajagopal_OpenSense")
-# ANAT_STO      = DATASET_DIR / "placement_orientations.sto"
-# SENSOR_TO_OPENSIM = osim.Vec3(-np.pi / 2, 0, 0)
-# BASE_HEADING_AXIS = "z"
-
 # YOUR data — step 2 flips the 180°X-rotated sensors so tutorial settings apply:
 DATASET_DIR   = Path("example_data/IMU_Data")
 ANAT_STO      = DATASET_DIR / "static_orientations.sto"    # ← reoriented by step 2
