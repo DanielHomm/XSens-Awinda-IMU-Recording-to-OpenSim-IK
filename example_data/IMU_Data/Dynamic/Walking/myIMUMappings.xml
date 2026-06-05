@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSimDocument Version="40000">
+  <XsensDataReaderSettings>
+    <trial_prefix>MT_012012B9_000-000</trial_prefix>
+    <ExperimentalSensors>
+      <ExperimentalSensor name="_10B426DD">
+        <name_in_model>torso_imu</name_in_model>
+      </ExperimentalSensor>
+
+      <ExperimentalSensor name="_10B426DB">
+        <name_in_model>pelvis_imu</name_in_model>
+      </ExperimentalSensor>
+
+      <ExperimentalSensor name="_10B426ED">
+        <name_in_model>femur_r_imu</name_in_model>
+      </ExperimentalSensor>
+
+      <ExperimentalSensor name="_10B426F1">
+        <name_in_model>tibia_r_imu</name_in_model>
+      </ExperimentalSensor>
+
+      <ExperimentalSensor name="_10B426F3">
+        <name_in_model>calcn_r_imu</name_in_model>
+      </ExperimentalSensor>
+
+      <ExperimentalSensor name="_10B426F5">
+        <name_in_model>femur_l_imu</name_in_model>
+      </ExperimentalSensor>
+
+      <ExperimentalSensor name="_10B426F2">
+        <name_in_model>tibia_l_imu</name_in_model>
+      </ExperimentalSensor>
+
+      <ExperimentalSensor name="_10B426EE">
+        <name_in_model>calcn_l_imu</name_in_model>
+      </ExperimentalSensor>
+
+    </ExperimentalSensors>
+  </XsensDataReaderSettings>
+</OpenSimDocument>

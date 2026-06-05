@@ -1,0 +1,4 @@
+*.sto
+*.osim
+*.mot
+example_data/model/Geometry Data/*
