@@ -116,6 +116,8 @@ python 2_imu_placer.py
 
 Runs OpenSim's `IMUPlacer` to estimate the offset between each sensor's physical frame and the model body frame. The subject must stand in an anatomical (N-pose) reference position during the static recording.
 
+Furthermore, the MTw2 Sensors must be placed so that the Xsens logos are horizontally readable to achieve optimal results.
+
 **Input:** `static_orientations.sto`, `Rajagopal2015_opensense.osim`  
 **Output:** `calibrated_model.osim`
 
