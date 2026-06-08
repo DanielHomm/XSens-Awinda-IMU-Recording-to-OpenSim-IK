@@ -42,6 +42,7 @@ A standalone bonus script (`visualizations/calculate_joint_angles.py`) computes 
 ```bash
 conda create -n opensim -c opensim-org opensim
 conda activate opensim
+conda install opensim-org::opensim
 pip install numpy pandas scipy matplotlib
 ```
 
