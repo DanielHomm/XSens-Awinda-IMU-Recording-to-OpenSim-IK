@@ -21,7 +21,7 @@ ANAT_STO      = DATASET_DIR / "static_orientations.sto"    # ← reoriented by s
 SENSOR_TO_OPENSIM = osim.Vec3(np.deg2rad(90), 0, 0)
 BASE_HEADING_AXIS = "z"
 
-MODEL_IN  = Path("example_data/Rajagopal2015_opensense.osim")
+MODEL_IN  = Path(r"C:\Simulation\OpenSim_Models\4.5\Models\Rajagopal_OpenSense\Rajagopal2015_opensense.osim")
 MODEL_OUT = PIPELINE_DIR / "calibrated_model.osim"
 BASE_IMU_LABEL = "pelvis_imu"
 
